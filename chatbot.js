@@ -14,7 +14,7 @@
   const KB = [
     {
       patterns: ['hello', 'hi', 'hey', 'good morning', 'good afternoon', 'howzit', 'hola'],
-      reply: "Hi gorgeous! 💅 Welcome to Madam Nails & Beauty Bar. How can I help you today?",
+      reply: "Welcome to Madam Nails & Beauty Bar! How can I help you today?",
       quick: ['Book appointment', 'View prices', 'Our location', 'Opening hours']
     },
     {
@@ -173,7 +173,8 @@
 
   // ── Greeting ─────────────────────────────────────────────────────
   setTimeout(() => {
-    addMessage("Hi there! 👋 I'm the Madam Nails assistant. How can I help you today?", 'bot');
+    addMessage("Hi gorgeous! 💅 I'm the Madam Nails & Beauty Bar assistant. How can I help you today?", 'bot');
+    
     setQuick(['Book appointment', 'View prices', 'Our location', 'Opening hours']);
   }, 300);
 
