@@ -1,0 +1,36 @@
+# Image Placement Guide
+
+Please add the following images to this folder:
+
+## Required Images:
+
+### 1. hero-bg.jpg
+- **Purpose**: Main background image for the hero/landing section
+- **Recommended Size**: 1920x1080 pixels (landscape)
+- **Type**: Professional photo of your salon or nail work
+- **Note**: This will be the first thing visitors see
+
+### 2. gallery-1.jpg to gallery-6.jpg
+- **Purpose**: Showcase your nail designs and beauty services
+- **Recommended Size**: 800x800 pixels (square format)
+- **Suggestions**:
+  - gallery-1.jpg: Manicure work
+  - gallery-2.jpg: Nail art designs
+  - gallery-3.jpg: Acrylic/gel nails
+  - gallery-4.jpg: Pedicure service
+  - gallery-5.jpg: Beauty treatment
+  - gallery-6.jpg: Another stunning design
+
+## Image Tips:
+✅ Use high-quality, well-lit photos
+✅ Keep file sizes under 500KB for faster loading
+✅ Use JPG format for photos
+✅ Show variety in your work
+✅ Ensure images are professional and clear
+
+## After Adding Images:
+Simply open the index.html file in your browser to see your website!
+
+---
+
+**Note**: If you want to use different image names, you can update the image paths in the index.html file.
