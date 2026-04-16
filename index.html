@@ -458,5 +458,31 @@
     </footer>
 
     <script src="script.js"></script>
+
+    <!-- Chatbot Widget -->
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-toggle" id="chatToggle" aria-label="Open chat">
+            <i class="fas fa-comments chat-open-icon"></i>
+            <i class="fas fa-times chat-close-icon"></i>
+            <span class="chat-badge" id="chatBadge">1</span>
+        </button>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <img src="images/logo.jpg" alt="Madam Nails">
+                <div class="chat-header-text">
+                    <strong>Madam Nails</strong>
+                    <span><span class="dot"></span> Online</span>
+                </div>
+                <button class="chat-close-btn" id="chatCloseBtn" aria-label="Close chat"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-quick" id="chatQuick"></div>
+            <div class="chat-input-row">
+                <input type="text" id="chatInput" placeholder="Type a message…" autocomplete="off" maxlength="200">
+                <button id="chatSend" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
 </body>
 </html>
